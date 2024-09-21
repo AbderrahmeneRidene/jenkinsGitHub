@@ -1,6 +1,7 @@
 
 pipeline {
-  
+  		
+  		agent any
 
           stages{
             stage('Get from git project'){
